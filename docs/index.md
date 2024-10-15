@@ -4,8 +4,8 @@ layoutClass: 'm-home-layout'
 
 hero:
   name: 世遗铭
-  text: 
-  tagline: 基于 VitePress 的个人前端导航页面模板
+  text: 被世界遗忘,或是逃离世界
+  tagline: 愿一切付出都能有其结果
   image:
     src: /ming.png
     alt: 世遗铭
