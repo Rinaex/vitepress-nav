@@ -7,8 +7,8 @@ hero:
   text: 前端导航模板
   tagline: 基于 VitePress 的个人前端导航页面模板
   image:
-    src: /logo.png
-    alt: 茂茂物语
+    src: /ming.png
+    alt: 世遗铭
   actions:
     - text: 茂茂物语
       link: https://notes.fe-mm.com
