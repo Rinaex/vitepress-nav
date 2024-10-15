@@ -3,52 +3,52 @@ layout: home
 layoutClass: 'm-home-layout'
 
 hero:
-  name: 茂茂的
-  text: 前端导航模板
+  name: 世遗铭
+  text: 
   tagline: 基于 VitePress 的个人前端导航页面模板
   image:
     src: /ming.png
     alt: 世遗铭
   actions:
-    - text: 茂茂物语
+    - text: GAL导航
       link: https://notes.fe-mm.com
-    - text: 前端导航
+    - text: 小铭导航
       link: /nav/
       theme: alt
-    - text: mmPlayer
+    - text: GAL百科
       link: https://netease-music.fe-mm.com
-    - text: 测试页
+    - text: 关于我
       link: /test
       theme: alt
 features:
-  - icon: 📖
-    title: 前端物语
-    details: 整理前端常用知识点<small>（面试八股文）</small><br />如有异议按你的理解为主，不接受反驳
+  - icon: 🎯
+    title: GAL导航
+    details: GALGAME优质站点推荐<br /><small>也许</small>定期更新
     link: https://notes.fe-mm.com/fe/javascript/types
-    linkText: 前端常用知识
-  - icon: 📘
-    title: 源码阅读
-    details: 了解各种库的实现原理<br />学习其中的小技巧和冷知识
+    /*linkText: 前端常用知识*/
+  - icon: 📚
+    title: GAL资料库
+    details: 收录了相关知识、工具<br />报错的解决方案
     link: https://notes.fe-mm.com/analysis/utils/only-allow
-    linkText: 源码阅读
-  - icon: 💡
-    title: Workflow
-    details: 在工作中学到的一切<small>（常用库/工具/奇淫技巧等）</small><br />配合 CV 大法来更好的摸鱼
+    /*linkText: 源码阅读*/
+  - icon: 📑
+    title: 小铭导航
+    details: 个人收藏的一些优秀站点<br /><small>它们帮助我节约很多时间和金钱</small>
     link: https://notes.fe-mm.com/workflow/utils/library
-    linkText: 常用工具库
-  - icon: 🧰
-    title: 提效工具
-    details: 工欲善其事，必先利其器<br />记录开发和日常使用中所用到的软件、插件、扩展等
+    /*linkText: 常用工具库*/
+  - icon: ✍
+    title: 冲浪笔记
+    details: 总结归纳的一些教程<br /><small>不过是一些互联网垃圾罢了</small>
     link: https://notes.fe-mm.com/efficiency/online-tools
-    linkText: 提效工具
-  - icon: 🐞
-    title: 踩坑记录
-    details: 那些年我们踩过的坑<br />总有一些让你意想不到的问题
+    /*linkText: 提效工具*/
+  - icon: 👴
+    title: 关于我
+    details: 现实的理想主义者<br />旧时代遗留的普通人
     link: https://notes.fe-mm.com/pit/npm
-    linkText: 踩坑记录
-  - icon: 💯
-    title: 吾志所向，一往无前。
-    details: '<small class="bottom-small">一个想躺平的小开发</small>'
+    /*linkText: 踩坑记录*/
+  - icon: 🥰
+    title: 投喂世遗铭
+    details: <small>也许会掉落什么特殊奖励也说不定</small>
     link: https://notes.fe-mm.com/mao
 ---
 
