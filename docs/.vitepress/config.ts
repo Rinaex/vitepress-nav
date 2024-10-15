@@ -70,10 +70,10 @@ export default defineConfig({
     },
 
     comment: {
-      repo: 'maomao1996/vitepress-nav-template',
-      repoId: 'R_kgDOJC09Jg',
+      repo: 'Rinaex/vitepress-nav',
+      repoId: 'R_kgDONAS1jw',
       category: 'Announcements',
-      categoryId: 'DIC_kwDOJC09Js4Cekn0',
+      categoryId: 'DIC_kwDONAS1j84CjYVY',
     },
   },
 
