@@ -88,7 +88,7 @@ export const NAV_DATA: NavData[] = [
 	  {
 		icon: 'https://favicon.im/www.touchgal.io',
 		title: 'TouchGal',
-		decs: 'TouchGal的自建盘使用的存储是Cloudflare,R2部分国内网络可能无法下载',
+		desc: 'TouchGal的自建盘使用的存储是Cloudflare R2部分国内网络可能无法下载',
 		link: 'https://www.touchgal.io/',
 	  },
 	  {
@@ -98,15 +98,13 @@ export const NAV_DATA: NavData[] = [
 		link: 'https://www.shinnku.com/',
 	  },
 	  {
-	  	inco: 'https://favicon.im/pan.jlbx.xyz',
+	  	icon: 'https://favicon.im/pan.jlbx.xyz',
 	  	title: '姬路白雪の资源小站',
-	  	//desc: '',
 	  	link: 'https://pan.jlbx.xyz/',
 	  },
 	  {
-		inco: 'https://favicon.im/galzy.eu.org',
+		icon: 'https://favicon.im/galzy.eu.org',
 		title: '紫缘社',
-		//desc: '',
 		link: 'https://galzy.eu.org/',
 	  },
 	  {
