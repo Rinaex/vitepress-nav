@@ -48,8 +48,14 @@ export const NAV_DATA: NavData[] = [
     ],
   },
   {
-	title: '免登录下载站',
+	title: '免登录资源站',
 	items : [
+	  {
+		icon: 'https://favicon.im/steamgalgame.com',
+		title: 'Steam上的中文Galgame',
+		desc: '适合Steam玩家,提供Steam上架的汉化游戏列表和对应游戏的补丁',
+		link: 'https://steamgalgame.com/',
+	  },
 	  {
 		icon: 'https://favicon.im/zi6.cc?larger=true',
 		title: '梓澪の妙妙屋',
@@ -80,6 +86,12 @@ export const NAV_DATA: NavData[] = [
 		link: 'https://www.sayafx.top/',
 	  },
 	  {
+		icon: 'https://favicon.im/www.touchgal.io',
+		title: 'TouchGal',
+		decs: 'TouchGal的自建盘使用的存储是Cloudflare R2部分国内网络可能无法下载',
+		link: 'https://www.touchgal.io/',
+	  },
+	  {
 		icon: 'https://favicon.im/www.shinnku.com?larger=true',
 		title: '失落小站',
 		desc: '希望大家都爱真红',
@@ -95,6 +107,64 @@ export const NAV_DATA: NavData[] = [
 		title: '紫缘社',
 		link: 'https://galzy.eu.org/',
 	  },
-	]
+	  {
+		icon: 'https://favicon.im/www.galdl.com?larger=true',
+		title: 'GALXP',
+		desc: '只推一些XP向的拔作,BT下载',
+		link: 'https://www.galdl.com/',
+	  }
+	],
+  },
+  {
+	title: '登录资源站',
+	items: [
+	  {
+		icon: 'https://favicon.im/www.hikarinagi.com?larger=true',
+		title: 'Hikarinagi',
+		desc: '使用积分获取资源,积分获取比较简单 登录签到就行 通常来说够用',
+		link: 'https://www.hikarinagi.com/',
+	  },
+	  {
+		icon: 'https://favicon.im/www.yngal.com',
+		title: '初音的青葱',
+		desc: '老牌下载站,下载比较稳定,需要存到35个硬币以后使用4硬币兑换七天下载权限',
+		link: 'https://www.yngal.com/',
+	  },
+	  {
+		icon: 'https://favicon.im/lzacg.org',
+		title: '量子ACG',
+		desc: '目前提供OSS和MEGA盘,OSS使用Cloudflare R2，两种下载方式都不适合国内网络',
+		link: 'https://lzacg.org/',
+	  }
+	],
+  },
+  {
+	title: '生肉资源站',
+	items: [
+	  {
+		icon: 'https://favicon.im/bbs4.2djgame.net',
+		title: '2DJGAME',
+		desc: '2DJ和绯月的生肉游戏发布的都很快,无需登录即可获取磁力链接',
+		link: 'https://bbs4.2djgame.net/',
+	  },
+	  {
+		icon: 'https://favicon.im/ggb.dlgal.com',
+		title: 'GGBases',
+		desc: '生肉分流站点,提供BT和PikPak',
+		link: 'https://ggb.dlgal.com/'
+	  },
+	  {
+		icon: 'https://favicon.im/www.anime-sharing.com',
+		title: 'Anime Sharing',
+		desc: '外国论坛,能找到一些冷门资源,但是大多数资源都是网赚盘，没会员很难下载',
+		link: 'https://www.anime-sharing.com/',
+	  },
+	  {
+		icon: 'https://favicon.im/www.erogame.space',
+		title: 'Faustの旧作館',
+		desc: '定期发布每月/年的作品大合集,115/PikPak分享,注册需要找老用户要邀请码',
+		link: 'https://www.erogame.space/',
+	  },
+	],
   },
 ]
