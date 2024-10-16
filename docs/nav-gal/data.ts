@@ -100,11 +100,13 @@ export const NAV_DATA: NavData[] = [
 	  {
 	  	inco: 'https://favicon.im/pan.jlbx.xyz',
 	  	title: '姬路白雪の资源小站',
+	  	//desc: '',
 	  	link: 'https://pan.jlbx.xyz/',
 	  },
 	  {
 		inco: 'https://favicon.im/galzy.eu.org',
 		title: '紫缘社',
+		//desc: '',
 		link: 'https://galzy.eu.org/',
 	  },
 	  {
