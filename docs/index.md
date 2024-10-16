@@ -11,7 +11,7 @@ hero:
     alt: 世遗铭
   actions:
     - text: GAL导航
-      link: https://notes.fe-mm.com
+      link: /gal/
     - text: 小铭导航
       link: /nav/
       theme: alt
