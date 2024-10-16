@@ -88,7 +88,7 @@ export const NAV_DATA: NavData[] = [
 	  {
 		icon: 'https://favicon.im/www.touchgal.io',
 		title: 'TouchGal',
-		decs: 'TouchGal的自建盘使用的存储是Cloudflare R2部分国内网络可能无法下载',
+		decs: 'TouchGal的自建盘使用的存储是Cloudflare,R2部分国内网络可能无法下载',
 		link: 'https://www.touchgal.io/',
 	  },
 	  {
