@@ -4,7 +4,7 @@ layoutClass: 'm-home-layout'
 
 hero:
   name: 世遗铭
-  text: 被世界遗忘,或是逃离世界
+  text: 被世界遗忘之人
   tagline: 愿一切付出都能有其结果
   image:
     src: /ming.png
