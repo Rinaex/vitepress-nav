@@ -173,7 +173,7 @@ export const NAV_DATA: NavData[] = [
 	  {
 		icon: 'https://favicon.im/vndb.org',
 		title: 'VNDB',
-		desc: '视觉小说数据库<br />用来查资料/筛选游戏',
+		desc: '视觉小说数据库,用来查资料/筛选游戏',
 		link: 'https://vndb.org/',
 	  },
 	  {
