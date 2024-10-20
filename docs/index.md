@@ -6,8 +6,8 @@ hero:
   name: 世遗铭
   text: 被世界遗忘之人
   tagline: 愿一切付出都能有其结果
-  image: 
-    src: http://oe92ea3u.s1.myws.ca/
+  image:
+    src: 
     alt: 世遗铭
   actions:
     - text: GAL导航
@@ -54,3 +54,13 @@ features:
   text-align: right;
 }
 </style>
+
+<script client>
+  var pic = [];
+  pic[0] = "https://p.inari.site/usr/1177/6714dc7c0337b.png";
+  pic[1] = "https://p.inari.site/usr/1177/6714dc7c03b52.png";
+  pic[2] = "https://p.inari.site/usr/1177/6714dc7c03dfe.png";
+  pic[3] = "https://p.inari.site/usr/1177/6714dc7c06f6f.png";
+  var randomBgIndex = Math.round( Math.random() * 3 );
+  document.getElementsByClassName('VPImage image-src')[0].src=pic[randomBgIndex];
+</script>
