@@ -62,5 +62,5 @@ features:
     pic[2] = "https://p.inari.site/usr/1177/6714dc7c03dfe.png";
     pic[3] = "https://p.inari.site/usr/1177/6714dc7c06f6f.png";
     var randomBgIndex = Math.round( Math.random() * 3 );
-    document.getElementsByClassName('VPImage image-src')[0].src=randomBgIndex;
+    document.getElementsByClassName('VPImage image-src')[0].src=pic[randomBgIndex];
 </script>
