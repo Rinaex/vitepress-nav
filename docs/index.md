@@ -7,7 +7,7 @@ hero:
   text: 被世界遗忘之人
   tagline: 愿一切付出都能有其结果
   image:
-    src: 
+    src: https://i.111666.best/image/Wy4FGVdbwitydn9cljg6Mu.png
     alt: 世遗铭
   actions:
     - text: GAL导航
@@ -37,19 +37,6 @@ features:
     link: /reward
 ---
 
-<script setup>
-  const vMyDirective = {
-  beforeMount: (el) => {
-      var pic = [];
-      pic[0] = "https://p.inari.site/usr/1177/6714dc7c0337b.png";
-      pic[1] = "https://p.inari.site/usr/1177/6714dc7c03b52.png";
-      pic[2] = "https://p.inari.site/usr/1177/6714dc7c03dfe.png";
-      pic[3] = "https://p.inari.site/usr/1177/6714dc7c06f6f.png";
-      var randomBgIndex = Math.round( Math.random() * 3 );
-      document.getElementsByClassName('VPImage image-src')[0].src=pic[randomBgIndex];
-  }
-}
-</script>
 
 <style>
 /*爱的魔力转圈圈*/
