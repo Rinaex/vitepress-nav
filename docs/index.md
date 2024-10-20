@@ -38,13 +38,17 @@ features:
 ---
 
 <script setup>
-  var pic = [];
-  pic[0] = "https://p.inari.site/usr/1177/6714dc7c0337b.png";
-  pic[1] = "https://p.inari.site/usr/1177/6714dc7c03b52.png";
-  pic[2] = "https://p.inari.site/usr/1177/6714dc7c03dfe.png";
-  pic[3] = "https://p.inari.site/usr/1177/6714dc7c06f6f.png";
-  var randomBgIndex = Math.round( Math.random() * 3 );
-  document.getElementsByClassName('VPImage image-src')[0].src=pic[randomBgIndex];
+  const vMyDirective = {
+  beforeMount: (el) => {
+      var pic = [];
+      pic[0] = "https://p.inari.site/usr/1177/6714dc7c0337b.png";
+      pic[1] = "https://p.inari.site/usr/1177/6714dc7c03b52.png";
+      pic[2] = "https://p.inari.site/usr/1177/6714dc7c03dfe.png";
+      pic[3] = "https://p.inari.site/usr/1177/6714dc7c06f6f.png";
+      var randomBgIndex = Math.round( Math.random() * 3 );
+      document.getElementsByClassName('VPImage image-src')[0].src=pic[randomBgIndex];
+  }
+}
 </script>
 
 <style>
