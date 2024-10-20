@@ -32,7 +32,7 @@ features:
     link: /wiki/
     linkText: 开始阅读
   - icon: 🥰
-    title: 投喂世遗铭
+    title: 投喂站长
     details: <small>也许会掉落什么特殊奖励也说不定</small>
     link: /reward
 ---
