@@ -9,7 +9,11 @@
 ## 赞赏码
 
 下面是微信赞赏码和支付宝收款码,您可以点击放大, 感谢您的支持!
-|![微信赞赏码](https://gcore.jsdelivr.net/gh/rinaex/images@main/mm_reward_qrcode.jpg)|![支付宝收款码](https://gcore.jsdelivr.net/gh/rinaex/images@main/alipay_qrcode.png)|
+|微信赞赏码|支付宝收款码|
 |---|---|
-
+|![微信赞赏码](https://gcore.jsdelivr.net/gh/rinaex/images@main/mm_reward_qrcode.jpg)|![支付宝收款码](https://gcore.jsdelivr.net/gh/rinaex/images@main/alipay_qrcode.png)|
 ## 赞赏名单
+
+|昵称|金额|备注|
+|---|---|---|
+|蒟蒻|10.00|Ciallo～(∠・ω< )⌒★|
