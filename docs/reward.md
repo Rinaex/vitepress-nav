@@ -7,9 +7,11 @@
 :::
 
 ## 赞赏码
-下面是微信赞赏码和支付宝收款码,您可以点击放大, 感谢您的支持!
 
+下面是微信赞赏码和支付宝收款码,您可以点击放大, 感谢您的支持!
+<center class="half">
 <img src='https://gcore.jsdelivr.net/gh/rinaex/images@main/mm_reward_qrcode.jpg' width='300' />
 <img src='https://gcore.jsdelivr.net/gh/rinaex/images@main/alipay_qrcode.png' width='300' />
+</center>
 
 ## 赞赏名单
