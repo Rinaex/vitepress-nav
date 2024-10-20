@@ -7,7 +7,7 @@ hero:
   text: 被世界遗忘之人
   tagline: 愿一切付出都能有其结果
   image:
-    src: https://i.111666.best/image/Wy4FGVdbwitydn9cljg6Mu.png
+    src: https://gcore.jsdelivr.net/gh/rinaex/vitepress-nav@img/cb19aba512b47368f992202abfa2723d.png
     alt: 世遗铭
   actions:
     - text: GAL导航
@@ -17,7 +17,7 @@ hero:
       theme: alt
     - text: 使用说明
       link: /manual
-    - text: 关于我
+    - text: 关于
       link: /about
       theme: alt
 features:
