@@ -14,6 +14,6 @@
 |![微信赞赏码](https://gcore.jsdelivr.net/gh/rinaex/images@main/mm_reward_qrcode.jpg)|![支付宝收款码](https://gcore.jsdelivr.net/gh/rinaex/images@main/alipay_qrcode.png)|
 ## 赞赏名单
 
-|昵称|金额|备注|
-|---|---|---|
-|蒟蒻|10.00|Ciallo～(∠・ω< )⌒★|
+|昵称|金额|日期|备注|
+|---|---|---|---|
+|蒟蒻|10.00|2024/10/20|Ciallo～(∠・ω< )⌒★|
