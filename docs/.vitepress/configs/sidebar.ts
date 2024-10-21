@@ -18,7 +18,7 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
             text: '站点攻略',
             collapsed: false,
             items: [
-                { text: 'VNDB', link: '/wiki/vndb' },
+                { text: 'VNDB', link: '/wiki/VNDB' },
                 { text: 'Bangumi', link: '/wiki/bangumi' },
             ]
         },
