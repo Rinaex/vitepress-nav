@@ -13,7 +13,7 @@ hero:
     - text: GAL导航
       link: /nav/
     - text: GAL百科
-      link: /wiki/
+      link: /wiki/request
       theme: alt
     - text: 使用说明
       link: /manual
@@ -29,7 +29,7 @@ features:
   - icon: 📚
     title: GAL百科
     details: 收录了相关知识、工具<br />报错的解决方案
-    link: /wiki/
+    link: /wiki/request
     linkText: 开始阅读
   - icon: 🥰
     title: 投喂站长
