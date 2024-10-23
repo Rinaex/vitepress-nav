@@ -1,10 +1,10 @@
 import type { DefaultTheme } from 'vitepress'
 
 export const sidebar: DefaultTheme.Config['sidebar'] = {
-    '/wiki/': [
+    '/basic/': [
         {
             text: '作者的请求',
-            link: '/wiki/request'
+            link: '/basic/first'
         },
         {
             text: '文件格式',
@@ -18,8 +18,8 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
             text: '站点攻略',
             collapsed: false,
             items: [
-                { text: 'VNDB', link: '/wiki/VNDB' },
-                { text: 'Bangumi', link: '/wiki/bangumi' },
+                { text: 'VNDB', link: '/basic/VNDB' },
+                { text: 'Bangumi', link: '/basic/bangumi' },
             ]
         },
     ]
