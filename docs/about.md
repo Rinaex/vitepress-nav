@@ -11,7 +11,7 @@
 
 ## 关于本站
 
-本站使用`VitePress`搭建,主题是`vuepress-theme-maomao`,感谢作者[maomao](https://github.com/maomao1996)的付出
+本站使用`VitePress`搭建,导航主题使用`vuepress-theme-maomao`,感谢作者[maomao](https://github.com/maomao1996)的付出
 
 资料库中的报错解决方案部分来源于网络,感谢前人的分享
 
