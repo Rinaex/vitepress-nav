@@ -27,8 +27,8 @@ features:
     link: /nav/
     linkText: 前往导航
   - icon: 📚
-    title: GAL百科
-    details: 收录了相关知识、工具<br />报错的解决方案
+    title: 速查手册
+    details: 收录了一些问题的解决方案
     link: /basic/first
     linkText: 开始阅读
   - icon: 🥰
