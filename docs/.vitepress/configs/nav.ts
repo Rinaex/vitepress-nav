@@ -11,11 +11,31 @@ export const nav: DefaultTheme.Config['nav'] = [
     text: '速查手册',
     items:[
       { text: '简介', link: 'reference/first'},
-      { text: '建设中', link: 'reference/first'},
-      { text: '建设中', link: 'reference/first'},
       {items:[
+        { text: '运行报错'},
         { text: '建设中', link: 'reference/first'},
         { text: '建设中', link: 'reference/first'},
+        ],
+      },
+      {
+        items:[
+          { text: '画面问题'},
+          { text: '建设中', link: 'reference/first'},
+          { text: '建设中', link: 'reference/first'},
+        ],
+      },
+      {
+        items:[
+          { text: '声音问题'},
+          { text: '建设中', link: 'reference/first'},
+          { text: '建设中', link: 'reference/first'},
+        ],
+      },
+      {
+        items:[
+          { text: '模拟器问题'},
+          { text: '建设中', link: 'reference/first'},
+          { text: '建设中', link: 'reference/first'},
         ],
       },
     ],
