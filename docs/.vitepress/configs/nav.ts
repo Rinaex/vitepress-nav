@@ -41,6 +41,7 @@ export const nav: DefaultTheme.Config['nav'] = [
           { text: '下载', link: 'basic/first'},
           { text: '解压缩', link: 'basic/first'},
           { text: '安装与运行', link: 'basic/first'},
+          { text: '常用软件', link: 'basic/first'},
         ],
       },
       {
