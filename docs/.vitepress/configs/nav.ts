@@ -14,31 +14,19 @@ export const nav: DefaultTheme.Config['nav'] = [
       { text: '简介', link: 'reference/first'},
       {
         text: '运行报错',
-        items:[
-        { text: '建设中', link: 'reference/first'},
-        { text: '建设中', link: 'reference/first'},
-        ],
-      },
+        link: 'reference/first'
+        },
       {
         text: '画面问题',
-        items:[
-          { text: '建设中', link: 'reference/first'},
-          { text: '建设中', link: 'reference/first'},
-        ],
+        link: 'reference/first'
       },
       {
         text: '声音问题',
-        items:[
-          { text: '建设中', link: 'reference/first'},
-          { text: '建设中', link: 'reference/first'},
-        ],
+        link: 'reference/first'
       },
       {
         text: '模拟器问题',
-        items:[
-          { text: '建设中', link: 'reference/first'},
-          { text: '建设中', link: 'reference/first'},
-        ],
+        link: 'reference/first'
       },
     ],
     activeMatch: '^/reference',
@@ -46,15 +34,24 @@ export const nav: DefaultTheme.Config['nav'] = [
   {
     text: '基础篇',
     items:[
-      { text: '简介', link: 'basic/first'},
-      { text: '建设中', link: 'basic/first'},
-      { text: '建设中', link: 'basic/first'},
-      {items:[
-        { text: '建设中', link: 'basic/first'},
-        { text: '建设中', link: 'basic/first'},
+      {
+        text: 'PC',
+        items: [
+          { text: '简介', link: 'basic/first'},
+          { text: '下载', link: 'basic/first'},
+          { text: '解压缩', link: 'basic/first'},
+          { text: '安装与运行', link: 'basic/first'},
         ],
       },
-    ],
+      {
+        text: 'Android',
+        items: [
+          { text: '安装模拟器', link: 'basic/first'},
+          { text: '资源下载', link: 'basic/first'},
+          { text: '注意事项', link: 'basic/first'},
+        ],
+      },
+      ],
     activeMatch: '^/basic',
   },
   {
