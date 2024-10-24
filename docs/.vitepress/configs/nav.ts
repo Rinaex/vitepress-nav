@@ -6,6 +6,7 @@ export const nav: DefaultTheme.Config['nav'] = [
       { text: 'VNDB', link: 'site/VNDB'},
       { text: 'Bangumi', link: 'site/bangumi'},
     ],
+    activeMatch: '^/site',
   },
   {
     text: '速查手册',
@@ -40,6 +41,7 @@ export const nav: DefaultTheme.Config['nav'] = [
         ],
       },
     ],
+    activeMatch: '^/reference',
   },
   {
     text: '基础篇',
@@ -53,6 +55,7 @@ export const nav: DefaultTheme.Config['nav'] = [
         ],
       },
     ],
+    activeMatch: '^/basic',
   },
   {
     text: '进阶篇',
@@ -60,6 +63,7 @@ export const nav: DefaultTheme.Config['nav'] = [
       { text: '简介', link: 'advanced/first'},
       { text: '建设中', link: 'advanced/first'},
     ],
+    activeMatch: '^/advanced',
   },
   {
     text: '大师篇',
@@ -67,7 +71,8 @@ export const nav: DefaultTheme.Config['nav'] = [
       { text: '简介', link: 'master/first'},
       { text: '建设中', link: 'master/first'},
     ],
+    activeMatch: '^/master',
   },
-  { text: '加入群聊',link: '/group',},
-  { text: '赞助作者', link: '/reward' },
+  { text: '加入群聊', link: '/group', activeMatch: '^/group',},
+  { text: '赞助作者', link: '/reward', activeMatch: '^/reward', },
 ]
