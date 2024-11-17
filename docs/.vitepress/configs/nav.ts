@@ -34,6 +34,7 @@ export const nav: DefaultTheme.Config['nav'] = [
   {
     text: '基础篇',
     items:[
+      { text: '文件格式', link: 'basic/format'},
       {
         text: 'PC',
         items: [
