@@ -7,6 +7,10 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
             link: '/basic/first'
         },
         {
+            text: '文件格式',
+            link: '/basic/format'
+        },
+        {
             text: '站点攻略',
             collapsed: false,
             items: [
