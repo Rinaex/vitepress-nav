@@ -8,11 +8,7 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
         },
         {
             text: '文件格式',
-            collapsed: false,
-            items: [
-                { text: '建设中', link: '' },
-                { text: '建设中', link: '' },
-            ]
+            link: '/basic/format'
         },
         {
             text: '站点攻略',
