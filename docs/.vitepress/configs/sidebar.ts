@@ -11,6 +11,10 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
             link: '/basic/format'
         },
         {
+            text: '术语解释',
+            link: '/basic/glossary'
+        },
+        {
             text: '站点攻略',
             collapsed: false,
             items: [
