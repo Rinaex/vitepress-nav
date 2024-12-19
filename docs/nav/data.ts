@@ -228,7 +228,13 @@ export const NAV_DATA: NavData[] = [
 		icon: 'https://favicon.im/2dfan.com',
 		title: '2DFan',
 		desc: '新作情报,存档、补丁下载',
-		link: 'https://galge.top/',
+		link: 'https://2dfan.com/',
+	  },
+	  {
+		icon: 'https://favicon.im/2dfan.com',
+		title: '2DFan',
+		desc: '如果打不开主域名,可以看看这个发布页',
+		link: 'https://github.com/2dfan/domains/',
 	  },
 	  {
 		icon: 'https://favicon.im/gallibrary.pw',
