@@ -237,6 +237,12 @@ export const NAV_DATA: NavData[] = [
 		link: 'https://github.com/2dfan/domains/',
 	  },
 	  {
+		icon: 'https://favicon.im/moyu.moe',
+		title: '鲲Galgame补丁',
+		desc: '鲲的补丁站,提供无需登录的补丁下载服务.',
+		link: 'https://www.moyu.moe/',
+	  },
+	  {
 		icon: 'https://favicon.im/gallibrary.pw',
 		title: 'GAL图书馆',
 		desc: '查询游戏基本信息,部分文章带下载链接',
