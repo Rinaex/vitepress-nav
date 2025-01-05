@@ -1,0 +1,1 @@
+import{_ as t,c as a,o as e,a9 as d}from"./chunks/framework.UE0CKZYN.js";const u=JSON.parse('{"title":"赞赏","description":"","frontmatter":{},"headers":[],"relativePath":"赞赏.md","filePath":"赞赏.md","lastUpdated":1736077505000}'),r={name:"赞赏.md"},o=d("",8),s=[o];function h(i,l,c,n,_,p){return e(),a("div",null,s)}const b=t(r,[["render",h]]);export{u as __pageData,b as default};

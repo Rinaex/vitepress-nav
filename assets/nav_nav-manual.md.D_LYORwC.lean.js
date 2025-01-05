@@ -1,1 +1,0 @@
-import{_ as a,c as e,o as t}from"./chunks/framework.UE0CKZYN.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"nav/nav-manual.md","filePath":"nav/nav-manual.md","lastUpdated":1729401222000}'),n={name:"nav/nav-manual.md"};function r(o,s,c,d,l,m){return t(),e("div")}const i=a(n,[["render",r]]);export{_ as __pageData,i as default};
