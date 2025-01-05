@@ -1,25 +1,25 @@
 import type { DefaultTheme } from 'vitepress'
 
 export const sidebar: DefaultTheme.Config['sidebar'] = {
-    '/basic/': [
+    '/基础教程/': [
         {
             text: '作者的请求',
-            link: '/basic/first'
+            link: '/基础教程/first'
         },
         {
             text: '文件格式',
-            link: '/basic/format'
+            link: '/基础教程/文件格式'
         },
         {
             text: '术语解释',
-            link: '/basic/glossary'
+            link: '/基础教程/术语解释'
         },
         {
             text: '站点攻略',
             collapsed: false,
             items: [
-                { text: 'VNDB', link: '/basic/VNDB' },
-                { text: 'Bangumi', link: '/basic/bangumi' },
+                { text: 'VNDB', link: '/站点攻略/VNDB' },
+                { text: 'Bangumi', link: '/站点攻略/bangumi' },
             ]
         },
     ]
