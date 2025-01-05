@@ -11,30 +11,30 @@ hero:
     alt: 世遗铭
   actions:
     - text: GAL导航
-      link: /导航/
+      link: /nav/
     - text: GAL百科
       link: /基础教程/first
       theme: alt
     - text: 使用说明
-      link: /导航使用说明
+      link: /manmual
     - text: 关于
-      link: /关于
+      link: /about
       theme: alt
 features:
   - icon: 🎯
-    title: GAL导航
-    details: GALGAME优质站点推荐<br /><small>也许</small>定期更新
-    link: /导航/
-    linkText: 前往导航
+    title: 提问的智慧
+    details: 您可以在这里了解到如何有效提问.
+    link: /right_question
+    linkText: 前往了解
   - icon: 📚
     title: 速查手册
     details: 收录了一些问题的解决方案
-    link: /基础教程/first
+    link: /stage1/first
     linkText: 开始阅读
   - icon: 🥰
     title: 投喂站长
     details: <small>也许会掉落什么特殊奖励也说不定</small>
-    link: /赞赏
+    link: /reward
 ---
 
 
