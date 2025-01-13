@@ -92,16 +92,6 @@ export const NAV_DATA: NavData[] = [
 		link: 'https://www.shinnku.com/',
 	  },
 	  {
-			icon: 'https://favicon.im/pan.jlbx.xyz',
-		title: '姬路白雪の资源小站',
-		link: 'https://pan.jlbx.xyz/',
-	  },
-	  {
-		icon: 'https://favicon.im/galzy.eu.org',
-		title: '紫缘社',
-		link: 'https://galzy.eu.org/',
-	  },
-	  {
 		icon: 'https://favicon.im/www.galdl.com?larger=true',
 		title: 'GALXP',
 		desc: '只推一些XP向的拔作,BT下载',
