@@ -29,7 +29,7 @@ features:
   - icon: 📚
     title: 速查手册
     details: 收录了一些问题的解决方案
-    link: /stage1/first
+    link: /reference/Universal
     linkText: 开始阅读
   - icon: 🥰
     title: 投喂站长

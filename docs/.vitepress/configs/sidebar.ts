@@ -18,40 +18,10 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
             text: '常用软件',
             link: '/stage1/software'
         },
-        {
-            text: 'site',
-            collapsed: false,
-            items: [
-                { text: 'VNDB', link: '/site/VNDB' },
-                { text: 'Bangumi', link: '/site/bangumi' },
-            ]
-        },
     ],
     '/site/': [
-        {
-            text: '作者的请求',
-            link: '/stage1/first'
-        },
-        {
-            text: '文件格式',
-            link: '/stage1/format'
-        },
-        {
-            text: '术语解释',
-            link: '/stage1/jargon'
-        },
-        {
-            text: '常用软件',
-            link: '/stage1/software'
-        },
-        {
-            text: 'site',
-            collapsed: false,
-            items: [
-                { text: 'VNDB', link: '/site/VNDB' },
-                { text: 'Bangumi', link: '/site/bangumi' },
-            ]
-        },
+        { text: 'VNDB', link: '/site/VNDB' },
+        { text: 'Bangumi', link: '/site/bangumi' },
     ],
 }
 
