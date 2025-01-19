@@ -16,7 +16,7 @@ hero:
       link: /基础教程/first
       theme: alt
     - text: 使用说明
-      link: /manmual
+      link: /Guide
     - text: 关于
       link: /about
       theme: alt
