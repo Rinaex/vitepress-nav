@@ -18,14 +18,14 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
             text: '常用软件教程',
             collapsed: false,
             items: [
-              { text: '解压缩', link: '/stage1/ZIP' },
-              { text: '转区工具', link: '/stage1/LE' },
-              { text: '下载工具', link: '/stage1/Down' },
-              { text: '虚拟光驱', link: '/stage1/ISO' },
-              { text: 'MT管理器', link: '/stage1/MT' },
-              { text: 'Shizuku', link: '/stage1/Shizuku' },
-              { text: 'ZArchiver', link: '/stage1/ZA' },
-              { text: '安卓模拟器', link: '/stage1/SIM' },
+              { text: '解压缩', link: '/stage1/soft/ZIP' },
+              { text: '转区工具', link: '/stage1/soft/LE' },
+              { text: '下载工具', link: '/stage1/soft/Down' },
+              { text: '虚拟光驱', link: '/stage1/soft/ISO' },
+              { text: 'MT管理器', link: '/stage1/soft/MT' },
+              { text: 'Shizuku', link: '/stage1/soft/Shizuku' },
+              { text: 'ZArchiver', link: '/stage1/soft/ZA' },
+              { text: '安卓模拟器', link: '/stage1/soft/SIM' },
             ]
         },
         {
