@@ -10,9 +10,9 @@
 
 ## qq群
 
-|1群:730798667|2群:729253353|
-|---|---|
-|![1群](https://gcore.jsdelivr.net/gh/rinaex/images@main/qrcode_1729488078349.jpg)|![2群](https://gcore.jsdelivr.net/gh/rinaex/images@main/qrcode_1729488066875.jpg)|
+|1群:730798667(当前已满)|2群:729253353(当前已满)|3群:920488244|
+|---|---|---|
+|![1群](https://gcore.jsdelivr.net/gh/rinaex/images@main/qrcode_1729488078349.jpg)|![2群](https://gcore.jsdelivr.net/gh/rinaex/images@main/qrcode_1729488066875.jpg)|![3群](https://gcore.jsdelivr.net/gh/rinaex/images@main/qrcode_1738414351240.jpg)|
 
 ## 微信群
 
