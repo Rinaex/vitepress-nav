@@ -52,7 +52,7 @@ jobs:
       # 打包静态文件
       - name: Build
         env:
-          /: /${{ github.repository }}
+          APP_BASE_PATH: /
         run: pnpm install && pnpm run build
 
       # 部署
