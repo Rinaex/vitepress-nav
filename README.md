@@ -23,10 +23,28 @@
 - 支持日夜颜色模式自适应切换
 - 支持 Github Pages 直接部署上线
   - 1. 开启 github actions
-  - 2. 配置 Pages 为 `gh-pages` 分支
-  - 3. 访问地址为 `https://<username>.github.io/<repository>/`
+  - 2. 配置 Pages 的 Branch 为 `gh-pages` 分支，文件夹为 `/(root)`
+  - 3. 访问地址为 `https://<username>.github.io/<repository>/` 或自定义域名
 - 支持 [tailwindcss](https://github.com/tailwindlabs/tailwindcss)
 - 支持查看 vue 示例组件源码（使用 [vite-plugin-markdown-preview](https://github.com/jaskang/vite-plugin-markdown-preview)）
+
+#### 使用自定义域名部署
+
+当 Github Pages 使用自定义域名时，需要修改 `.github/workflows/deploy.yml` 脚本中的 `APP_BASE_PATH` 为 `/`
+
+更**推荐使用第三方服务绑定域名来部署**
+
+- [Netlify](https://www.netlify.com/)
+- [Vercel](https://vercel.com/)
+- [Cloudflare Pages](https://pages.cloudflare.com/)
+
+使用仪表板创建新项目并更改这些设置：
+
+- **构建命令：** `npm run build`
+- **输出目录：** `dist`
+- **node 版本：** `18` (或更高版本)
+
+更多部署指南请查看 [VitePress 各平台部署指南](https://vitepress.dev/zh/guide/deploy#platform-guides)
 
 ### 开启访客统计
 
