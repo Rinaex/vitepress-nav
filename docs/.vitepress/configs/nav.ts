@@ -53,22 +53,6 @@ export const nav: DefaultTheme.Config['nav'] = [
       ],
     activeMatch: '^/stage1',
   },
-  {
-    text: '进阶教程',
-    items:[
-      { text: '简介', link: '/first'},
-      { text: '建设中', link: '/first'},
-    ],
-    activeMatch: '^/stage2',
-  },
-  {
-    text: '糕手教程',
-    items:[
-      { text: '简介', link: '/first'},
-      { text: '建设中', link: '/first'},
-    ],
-    activeMatch: '^/stage3',
-  },
   { text: '加入群聊', link: '/group', activeMatch: '^/group',},
   { text: '赞助作者', link: '/reward', activeMatch: '^/reward', },
 ]

@@ -12,15 +12,24 @@ hero:
   actions:
     - text: GAL导航
       link: /nav/
-    - text: GAL百科
-      link: /基础教程/first
-      theme: alt
     - text: 使用说明
       link: /Guide
+      theme: alt
     - text: 关于
       link: /about
-      theme: alt
 features:
+  - icon: 📝
+    title: 提交内容
+    details: 你一定也有超棒的网站或教程要分享！
+    link: /submit
+  - icon: 🏪
+    title: 我的小店
+    details: 用金币购买站长的时间和劳动力.
+    link: /shop
+  - icon: ✨
+    title: 站长推荐
+    details: 一些站长喜欢的游戏.
+    link: /recomm
   - icon: 🎯
     title: 提问的智慧
     details: 您可以在这里了解到如何有效提问.
@@ -33,7 +42,7 @@ features:
     linkText: 开始阅读
   - icon: 🥰
     title: 投喂站长
-    details: <small>也许会掉落什么特殊奖励也说不定</small>
+    details: <small>感谢您的支持</small>
     link: /reward
 ---
 

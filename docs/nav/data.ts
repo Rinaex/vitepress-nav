@@ -45,6 +45,12 @@ export const NAV_DATA: NavData[] = [
 		desc: 'SSTM的考核机制比较严格,所以存留下来的用户和交流氛围都还不错',
 		link: 'https://sstm.moe/',
 	  },
+	  {
+		icon: 'https://favicon.im/galbase.top',
+		title: 'galbase',
+		//desc: '等待补充',
+		link: 'https://galbase.top/',
+	  }
 	],
   },
   {
