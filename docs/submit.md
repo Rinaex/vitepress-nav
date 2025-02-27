@@ -7,7 +7,7 @@
 那么非常感谢您对小站的支持.  
 
 
-您可以将投稿内容发送到我的邮箱:rinaex@qq.com  
+您可以将投稿内容发送到我的邮箱:  [rinaex@qq.com](mailto:rinaex@qq.com)
 
 ## 网站投稿
 
