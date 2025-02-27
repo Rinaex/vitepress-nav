@@ -50,7 +50,7 @@ export const NAV_DATA: NavData[] = [
 		title: 'galbase',
 		//desc: '等待补充',
 		link: 'https://galbase.top/',
-	  }
+	  },
 	],
   },
   {
@@ -203,10 +203,16 @@ export const NAV_DATA: NavData[] = [
 		link: 'https://sagaoz.net/',
 	  },
 	  {
-		icon: 'https://favicon.im/playrack.net',
-		title: 'playrack',
-		desc: '新作情报,价格走势图 还能预览CG',
-		link: 'https://playrack.net/',
+		icon: 'https://favicon.im/sagaoz.net',
+		title: 'ＳＡＧＡＯ．Ｚのホームページ',
+		desc: '提供游戏攻略和完美存档',
+		link: 'https://sagaoz.net/',
+	  },
+	  {
+		icon: 'https://favicon.im/moepedia.net',
+		title: 'moepedia',
+		desc: 'GALGAME信息站,同时罗列了对应游戏的购买地址以及线下商铺',
+		link: 'https://moepedia.net/',
 	  },
 	  {
 		icon: 'https://favicon.im/moe-gameaward.com',
