@@ -141,7 +141,7 @@ export const NAV_DATA: NavData[] = [
 	  {
 		icon: 'https://favicon.im/lzacg.org',
 		title: '量子ACG',
-		desc: '目前提供OSS和MEGA盘,OSS使用Cloudflare R2，两种下载方式都不适合国内网络',
+		desc: '提供MEGA盘和Cloudflare R2，两种下载方式都需要使用代理',
 		link: 'https://lzacg.org/',
 	  },
 		{
