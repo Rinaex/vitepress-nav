@@ -116,7 +116,7 @@ export const NAV_DATA: NavData[] = [
 		link: 'https://aozoracafe.com/',
 	  },
 	  {
-		icon: 'https://favicon.im/nn0721.icu?larger=true',
+		icon: 'https://gcore.jsdelivr.net/gh/Rinaex/images@main/7ce73a11-6cf7-484e-9f99-7e3f6741de4f.png',
 		title: '0721Galgame',
 		desc: '提供夸克和迅雷,解压密码挺抽象的',
 		link: 'https://nn0721.icu/',
