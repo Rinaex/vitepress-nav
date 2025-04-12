@@ -56,6 +56,12 @@ export const NAV_DATA: NavData[] = [
   {
 	title: '免登录资源站',
 	items : [
+		{
+		//icon: '',
+		title: 'Galgame聚合搜索',
+		desc: '聚合了很多资源站',
+		link: 'https://searchgal.cpolar.top/',
+	  },
 	  {
 		icon: 'https://favicon.im/zi6.cc?larger=true',
 		title: '梓澪の妙妙屋',
@@ -82,7 +88,7 @@ export const NAV_DATA: NavData[] = [
 	  {
 		icon: 'https://favicon.im/www.sayafx.top',
 		title: 'Galgame月谣',
-		desc: '体验不错,资源较少,目前还在更新',
+		desc: '好就是好！',
 		link: 'https://www.sayafx.top/',
 	  },
 	  {
@@ -98,10 +104,22 @@ export const NAV_DATA: NavData[] = [
 		link: 'https://www.shinnku.com/',
 	  },
 	  {
-		icon: 'https://favicon.im/www.galdl.com?larger=true',
-		title: 'GALXP',
-		desc: '只推一些XP向的拔作,BT下载',
-		link: 'https://www.galdl.com/',
+		icon: 'https://favicon.im/aozoracafe.com?larger=true',
+		title: '晴空咖啡馆',
+		desc: '很干净的一个资源站,投稿站长还送飞机杯(',
+		link: 'https://aozoracafe.com/',
+	  },
+	  {
+		icon: 'https://favicon.im/aozoracafe.com?larger=true',
+		title: '晴空咖啡馆',
+		desc: '很干净的一个资源站,投稿站长还送飞机杯(',
+		link: 'https://aozoracafe.com/',
+	  },
+	  {
+		icon: 'https://favicon.im/nn0721.icu?larger=true',
+		title: '0721Galgame',
+		desc: '提供夸克和迅雷,解压密码挺抽象的',
+		link: 'https://nn0721.icu/',
 	  }
 	],
   },
@@ -125,7 +143,13 @@ export const NAV_DATA: NavData[] = [
 		title: '量子ACG',
 		desc: '目前提供OSS和MEGA盘,OSS使用Cloudflare R2，两种下载方式都不适合国内网络',
 		link: 'https://lzacg.org/',
-	  }
+	  },
+		{
+		icon: 'https://files.catbox.moe/3ozfnq.webp',
+		title: '紫缘社',
+		desc: '紫缘社现在需要获取密码,遂移至此分区',
+		link: 'https://www.galzy.eu.org/',
+	  },
 	],
   },
   {
