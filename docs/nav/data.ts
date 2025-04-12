@@ -104,10 +104,10 @@ export const NAV_DATA: NavData[] = [
 		link: 'https://www.shinnku.com/',
 	  },
 	  {
-		icon: 'https://favicon.im/aozoracafe.com?larger=true',
-		title: '晴空咖啡馆',
-		desc: '很干净的一个资源站,投稿站长还送飞机杯(',
-		link: 'https://aozoracafe.com/',
+		icon: 'https://favicon.im/www.galdl.com?larger=true',
+ 		title: 'GALXP',
+ 		desc: '只推一些XP向的拔作,BT下载',
+ 		link: 'https://www.galdl.com/',
 	  },
 	  {
 		icon: 'https://favicon.im/aozoracafe.com?larger=true',
