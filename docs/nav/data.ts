@@ -40,12 +40,6 @@ export const NAV_DATA: NavData[] = [
 		link: 'https://galgamer.moe/',
 	  },
 	  {
-		//icon: '',
-		title: 'SS同盟',
-		desc: 'SSTM的考核机制比较严格,所以存留下来的用户和交流氛围都还不错',
-		link: 'https://sstm.moe/',
-	  },
-	  {
 		icon: 'https://favicon.im/galbase.top',
 		title: 'galbase',
 		//desc: '等待补充',
@@ -115,6 +109,12 @@ export const NAV_DATA: NavData[] = [
 		desc: '很干净的一个资源站,投稿站长还送飞机杯(',
 		link: 'https://aozoracafe.com/',
 	  },
+		{
+		icon: 'https://www.limulu.moe/favicon.ico',
+		title: '莉斯坦ACG',
+		desc: '一个简洁美观人性化的ACG资源站，我们致力于为ACG爱好者打造最优质的体验！',
+		link: 'https://www.limulu.moe/',
+	  },
 	  {
 		icon: 'https://gcore.jsdelivr.net/gh/Rinaex/images@main/7ce73a11-6cf7-484e-9f99-7e3f6741de4f.png',
 		title: '0721Galgame',
@@ -149,6 +149,12 @@ export const NAV_DATA: NavData[] = [
 		title: '紫缘社',
 		desc: '紫缘社现在需要获取密码,遂移至此分区',
 		link: 'https://www.galzy.eu.org/',
+	  },
+		{
+		icon: 'https://www.nekogal.com/wp-content/uploads/2023/11/favneko.png',
+		title: 'NekoGAL',
+		desc: '需要登录评论获取下载',
+		link: 'https://www.nekogal.com/',
 	  },
 	],
   },
