@@ -41,8 +41,8 @@ export default defineConfig({
     /* socialLinks: [{ icon: 'github', link: 'https://github.com/maomao1996/vitepress-nav-template' }], */
 
     footer: {
-      message: '<p>本网站由<a herf="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral"><img src="https://gcore.jsdelivr.net/gh/rinaex/images@main/%E5%8F%88%E6%8B%8D%E4%BA%91_logo2.png"></img></a>提供CDN加速</p>',
-      
+      message: '<div style="display: flex;">本网站由<a herf="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral"><img src="https://gcore.jsdelivr.net/gh/rinaex/images@main/%E5%8F%88%E6%8B%8D%E4%BA%91_logo2.png"></img></a>提供CDN加速</div>',
+
       copyright: 'Copyright © 2024-present ming',
     },
 
