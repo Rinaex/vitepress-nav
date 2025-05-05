@@ -38,7 +38,7 @@ features:
     linkText: 开始阅读
   - icon: 🥰
     title: 投喂站长
-    details: <small>感谢您的支持</small>
+    details: 感谢您的支持！
     link: /reward
 ---
 
