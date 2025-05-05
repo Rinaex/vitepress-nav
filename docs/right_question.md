@@ -1,6 +1,7 @@
 # 提问的智慧
 
-本文借鉴了[提问的智慧](http://www.catb.org/~esr/faqs/smart-questions.html),如果您有兴趣阅读,这里还有一份[简中版](https://lug.ustc.edu.cn/wiki/doc/smart-questions/),这是一篇很有用的文章,它讲述了如何有效提问,减少无效沟通和令人厌烦的提问方式,即使在生活中也是很有用的,我强烈建议您阅读它。
+本文借鉴了[提问的智慧](http://www.catb.org/~esr/faqs/smart-questions.html),如果您有兴趣阅读,这里还有一份[简中版](https://lug.ustc.edu.cn/wiki/doc/smart-questions/),这是一篇很有用的文章,它讲述了如何有效提问,减少无效沟通和令人厌烦的提问方式,即使在生活中也是很有用的,我强烈建议您阅读它。  
+提问的智慧内容相当丰富，本文只是罗列了提问Galgame问题时所需的一些资料，内容已经相当精简，请您提问前务必阅读一下。
 
 
 ## 授人以渔还是授人以鱼
