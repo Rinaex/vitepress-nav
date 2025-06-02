@@ -22,16 +22,22 @@ export const NAV_DATA: NavData[] = [
 		link: 'https://m.miaola.work/',
 	  },
 	  {
-		icon: 'https://favicon.im/www.ymgal.games',
-		title: '月幕Galgame',
-		desc: '综合性质的Galgame交流平台',
-		link: 'https://www.ymgal.games/index',
-	  },
-	  {
 		icon: 'https://favicon.im/www.kungal.com',
 		title: '鲲Galgame',
 		desc: '活跃用户很多,获取资源没有门槛',
 		link: 'https://www.kungal.com/zh-cn',
+	  },
+	  {
+		icon: 'https://favicon.im/galbase.top',
+		title: 'galbase',
+		desc: '一个开源且数据公开的综合型论坛',
+		link: 'https://galbase.top/',
+	  },
+	  {
+		icon: 'https://favicon.im/www.ymgal.games',
+		title: '月幕Galgame',
+		desc: '综合性质的Galgame交流平台',
+		link: 'https://www.ymgal.games/index',
 	  },
 	  {
 		icon: 'https://favicon.im/galgamer.moe',
@@ -39,12 +45,7 @@ export const NAV_DATA: NavData[] = [
 		//desc: '大家都是美少女',
 		link: 'https://galgamer.moe/',
 	  },
-	  {
-		icon: 'https://favicon.im/galbase.top',
-		title: 'galbase',
-		//desc: '等待补充',
-		link: 'https://galbase.top/',
-	  },
+
 	],
   },
   {
@@ -54,7 +55,7 @@ export const NAV_DATA: NavData[] = [
 		//icon: '',
 		title: 'Galgame聚合搜索',
 		desc: '聚合了很多资源站',
-		link: 'https://searchgal.cpolar.top/',
+		link: 'https://searchgal.homes/',
 	  },
 	  {
 		icon: 'https://favicon.im/zi6.cc?larger=true',
