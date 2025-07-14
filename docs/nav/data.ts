@@ -64,10 +64,10 @@ export const NAV_DATA: NavData[] = [
 		link: 'https://zi6.cc/',
 	  },
 	  {
-		icon: 'https://favicon.im/amoebi.com',
-		title: '稻荷·樱赞繁星',
-		desc: '不允许爬虫和多线程下载器下载',
-		link: 'https://amoebi.com/',
+		icon: 'https://favicon.im/inarigal.com',
+		title: '稻荷Gal',
+		desc: '海超人和大洋游侠合为一体',
+		link: 'https://inarigal.com/',
 	  },
 	  {
 		icon: 'https://favicon.im/t-satoru.top?larger=true', 
@@ -103,12 +103,6 @@ export const NAV_DATA: NavData[] = [
  		title: 'GALXP',
  		desc: '只推一些XP向的拔作,BT下载',
  		link: 'https://www.galdl.com/',
-	  },
-	  {
-		icon: 'https://favicon.im/aozoracafe.com?larger=true',
-		title: '晴空咖啡馆',
-		desc: '很干净的一个资源站,投稿站长还送飞机杯(',
-		link: 'https://aozoracafe.com/',
 	  },
 		{
 		icon: 'https://www.limulu.moe/favicon.ico',
