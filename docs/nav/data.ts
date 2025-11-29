@@ -58,14 +58,14 @@ export const NAV_DATA: NavData[] = [
 		link: 'https://searchgal.homes/',
 	  },
 	  {
-		icon: 'https://favicon.im/zi6.cc?larger=true',
+		icon: 'https://favicon.im/gal.games?larger=true',
 		title: '梓澪の妙妙屋',
 		desc: '梓澪のGalgame仓库',
-		link: 'https://zi6.cc/',
+		link: 'https://gal.games/',
 	  },
 	  {
 		icon: 'https://favicon.im/inarigal.com',
-		title: '稻荷Gal',
+		title: '新生版稻荷ACG',
 		desc: '海超人和大洋游侠合为一体',
 		link: 'https://inarigal.com/',
 	  },
@@ -87,10 +87,34 @@ export const NAV_DATA: NavData[] = [
 		link: 'https://www.sayafx.top/',
 	  },
 	  {
+		icon: 'https://files.catbox.moe/3ozfnq.webp',
+		title: '紫缘社',
+		desc: '紫缘社又改版了,现在无需密码即可下载',
+		link: 'https://www.galzy.eu.org/',
+	  },
+	  {
 		icon: 'https://favicon.im/www.touchgal.io',
 		title: 'TouchGal',
 		desc: 'TouchGal的自建盘使用的存储是Cloudflare R2部分国内网络可能无法下载',
 		link: 'https://www.touchgal.io/',
+	  },
+	  {
+		icon: 'https://favicon.im/www.lycorisgal.com',
+		title: 'LycorisGal',
+		//desc: '一个专注于Galgame的资源站',
+		link: 'https://www.lycorisgal.com/',
+	  },
+	  {
+		icon: 'https://shionlib.com/favicon.ico',
+		title: '书音的图书馆',
+		//desc: '一个专注于Galgame的资源站',
+		link: 'https://shionlib.com/',
+	  },
+	  {
+		icon: 'https://nysoure.com/favicon.ico',
+		title: 'Nysoure',
+		desc: '不支持大陆和日本IP的访问',
+		link: 'https://www.nysoure.com/',
 	  },
 	  {
 		icon: 'https://favicon.im/www.shinnku.com?larger=true',
@@ -109,6 +133,12 @@ export const NAV_DATA: NavData[] = [
 		title: '莉斯坦ACG',
 		desc: '一个简洁美观人性化的ACG资源站，我们致力于为ACG爱好者打造最优质的体验！',
 		link: 'https://www.limulu.moe/',
+	  },
+	  {
+		icon: 'https://catcat.cloud/favicon.ico',
+		title: '猫猫网盘',
+		desc: '除了Galgame还有些其他内容,给猫猫⭐',
+		link: 'https://catcat.cloud/',
 	  },
 	  {
 		icon: 'https://gcore.jsdelivr.net/gh/Rinaex/images@main/7ce73a11-6cf7-484e-9f99-7e3f6741de4f.png',
@@ -139,13 +169,7 @@ export const NAV_DATA: NavData[] = [
 		desc: '提供MEGA盘和Cloudflare R2，两种下载方式都需要使用代理',
 		link: 'https://lzacg.org/',
 	  },
-		{
-		icon: 'https://files.catbox.moe/3ozfnq.webp',
-		title: '紫缘社',
-		desc: '紫缘社现在需要获取密码,遂移至此分区',
-		link: 'https://www.galzy.eu.org/',
-	  },
-		{
+	  {
 		icon: 'https://www.nekogal.com/wp-content/uploads/2023/11/favneko.png',
 		title: 'NekoGAL',
 		desc: '需要登录评论获取下载',
