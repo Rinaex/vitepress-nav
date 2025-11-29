@@ -87,7 +87,7 @@ export const NAV_DATA: NavData[] = [
 		link: 'https://www.sayafx.top/',
 	  },
 	  {
-		icon: 'https://files.catbox.moe/3ozfnq.webp',
+		icon: 'https://galzy.eu.org/favicon.ico',
 		title: '紫缘社',
 		desc: '紫缘社又改版了,现在无需密码即可下载',
 		link: 'https://www.galzy.eu.org/',
