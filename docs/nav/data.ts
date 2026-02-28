@@ -40,6 +40,12 @@ export const NAV_DATA: NavData[] = [
 		link: 'https://www.ymgal.games/index',
 	  },
 	  {
+		icon: 'https://favicon.im/www.hikarinagi.com?larger=true',
+		title: 'Hikarinagi',
+	//	desc: '',
+		link: 'https://www.hikarinagi.com/',
+	  },
+	  {
 		icon: 'https://favicon.im/galgamer.moe',
 		title: 'Galgamer',
 		//desc: '大家都是美少女',
@@ -55,7 +61,7 @@ export const NAV_DATA: NavData[] = [
 		//icon: '',
 		title: 'Galgame聚合搜索',
 		desc: '聚合了很多资源站',
-		link: 'https://searchgal.homes/',
+		link: 'https://searchgal.top/',
 	  },
 	  {
 		icon: 'https://favicon.im/gal.games?larger=true',
@@ -114,25 +120,25 @@ export const NAV_DATA: NavData[] = [
 		icon: 'https://nysoure.com/favicon.ico',
 		title: 'Nysoure',
 		desc: '不支持大陆和日本IP的访问',
-		link: 'https://www.nysoure.com/',
+		link: 'https://nysoure.com/',
 	  },
 	  {
 		icon: 'https://favicon.im/www.shinnku.com?larger=true',
-		title: '失落小站',
+		title: '真红小站',
 		desc: '希望大家都爱真红',
 		link: 'https://www.shinnku.com/',
 	  },
-	  {
-		icon: 'https://favicon.im/www.galdl.com?larger=true',
- 		title: 'GALXP',
- 		desc: '只推一些XP向的拔作,BT下载',
- 		link: 'https://www.galdl.com/',
-	  },
+	//	{
+	//	icon: 'https://favicon.im/www.galdl.com?larger=true',
+ 	//	title: 'GALXP',
+ 	//	desc: '只推一些XP向的拔作,BT下载',
+ 	//	link: 'https://www.galdl.com/',
+	//	},
 		{
-		icon: 'https://www.limulu.moe/favicon.ico',
-		title: '莉斯坦ACG',
-		desc: '一个简洁美观人性化的ACG资源站，我们致力于为ACG爱好者打造最优质的体验！',
-		link: 'https://www.limulu.moe/',
+		icon: 'https://www.singureo.com/favicon.ico',
+		title: 'Singureo',
+		desc: '原莉斯坦ACG',
+		link: 'https://www.singureo.com/',
 	  },
 	  {
 		icon: 'https://catcat.cloud/favicon.ico',
@@ -151,12 +157,6 @@ export const NAV_DATA: NavData[] = [
   {
 	title: '登录资源站',
 	items: [
-	  {
-		icon: 'https://favicon.im/www.hikarinagi.com?larger=true',
-		title: 'Hikarinagi',
-		desc: '使用积分获取资源,积分获取比较简单 登录签到就行 通常来说够用',
-		link: 'https://www.hikarinagi.com/',
-	  },
 	  {
 		icon: 'https://favicon.im/www.yngal.com',
 		title: '初音的青葱',
@@ -244,12 +244,6 @@ export const NAV_DATA: NavData[] = [
 		title: '誠也の部屋',
 		desc: '提供游戏攻略和完美存档',
 		link: 'https://seiya-saiga.com/',
-	  },
-	  {
-		icon: 'https://favicon.im/sagaoz.net',
-		title: 'ＳＡＧＡＯ．Ｚのホームページ',
-		desc: '提供游戏攻略和完美存档',
-		link: 'https://sagaoz.net/',
 	  },
 	  {
 		icon: 'https://favicon.im/sagaoz.net',
