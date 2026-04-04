@@ -24,6 +24,10 @@ export const nav: DefaultTheme.Config['nav'] = [
         text: '模拟器问题',
         link: '/reference/Emulator'
       },
+      {
+        text: '游戏乱码',
+        link: '/reference/garbage_characters'
+      },
     ],
     activeMatch: '^/reference',
   },
