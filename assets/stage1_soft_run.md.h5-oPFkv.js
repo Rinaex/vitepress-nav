@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as a}from"./chunks/framework.UE0CKZYN.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"stage1/soft/run.md","filePath":"stage1/soft/run.md","lastUpdated":1775267393000}'),s={name:"stage1/soft/run.md"};function r(o,n,c,d,p,f){return a(),e("div")}const m=t(s,[["render",r]]);export{i as __pageData,m as default};
