@@ -36,12 +36,12 @@ export const nav: DefaultTheme.Config['nav'] = [
       {
         text: 'PC',
         items: [
-          { text: '下载', link: '/first'},
-          { text: '解压缩', link: '/first'},
-          { text: '安装与运行', link: '/first'},
-          { text: '常用软件', link: '/first'},
+          { text: '下载', link: '/stage1/soft/Down'},
+          { text: '解压缩', link: '/stage1/soft/ZIP'},
+          { text: '安装与运行', link: '/stage1/soft/run'},
         ],
       },
+/*
       {
         text: 'Android',
         items: [
@@ -50,6 +50,7 @@ export const nav: DefaultTheme.Config['nav'] = [
           { text: '注意事项', link: '/first'},
         ],
       },
+*/
       ],
     activeMatch: '^/stage1',
   },
