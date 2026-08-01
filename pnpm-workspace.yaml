@@ -1,0 +1,6 @@
+allowBuilds:
+  '@parcel/watcher': true
+  esbuild: true
+  vue-demi: true
+patchedDependencies:
+  vite-plugin-markdown-preview@1.1.1: patches/vite-plugin-markdown-preview@1.1.1.patch

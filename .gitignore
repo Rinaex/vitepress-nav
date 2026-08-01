@@ -6,6 +6,7 @@
 
 # dependencies
 node_modules
+node_modules.old*
 
 # compiled output
 dist
@@ -16,6 +17,7 @@ cache
 .temp
 .tmp
 .turbo
+docs/.vitepress/cache
 
 # log and lock files
 *.log

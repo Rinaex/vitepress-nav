@@ -70,11 +70,22 @@ export default defineConfig({
       badgeId: 'lost_ming',
     },
 
+/***
     comment: {
       repo: 'Rinaex/vitepress-nav',
       repoId: 'R_kgDONAS1jw',
       category: 'Announcements',
       categoryId: 'DIC_kwDONAS1j84CjYVY',
+    },
+***/
+
+  },
+
+  vue: {
+    template: {
+      compilerOptions: {
+        comments: false,
+      },
     },
   },
 
