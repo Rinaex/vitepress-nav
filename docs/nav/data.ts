@@ -14,12 +14,10 @@ export const NAV_DATA: NavData[] = [
 		title: '绯月ScarletMoon',
 		desc: '当下最好的Galgame 论坛',
 		link: 'https://kf.miaola.work/',
-	  },
-	  {
-		icon: 'https://favicon.im/miaola.work',
-		title: '绯月ScarletMoon',
-		desc: '适配手机版的绯月',
-		link: 'https://m.miaola.work/',
+		domains: [
+		  { label: 'PC版', url: 'https://kf.miaola.work/', type: 'primary' },
+		  { label: '手机版', url: 'https://m.miaola.work/', type: 'mobile' },
+		],
 	  },
 	  {
 		icon: 'https://favicon.im/www.kungal.com',
@@ -42,13 +40,11 @@ export const NAV_DATA: NavData[] = [
 	  {
 		icon: 'https://favicon.im/www.hikarinagi.com?larger=true',
 		title: 'Hikarinagi',
-	//	desc: '',
 		link: 'https://www.hikarinagi.com/',
 	  },
 	  {
 		icon: 'https://favicon.im/galgamer.moe',
 		title: 'Galgamer',
-		//desc: '大家都是美少女',
 		link: 'https://galgamer.moe/',
 	  },
 
@@ -58,7 +54,6 @@ export const NAV_DATA: NavData[] = [
 	title: '免登录资源站',
 	items : [
 		{
-		//icon: '',
 		title: 'Galgame聚合搜索',
 		desc: '聚合了很多资源站',
 		link: 'https://searchgal.top/',
@@ -107,13 +102,11 @@ export const NAV_DATA: NavData[] = [
 	  {
 		icon: 'https://favicon.im/www.lycorisgal.com',
 		title: 'LycorisGal',
-		//desc: '一个专注于Galgame的资源站',
 		link: 'https://www.lycorisgal.com/',
 	  },
 	  {
 		icon: 'https://shionlib.com/favicon.ico',
 		title: '书音的图书馆',
-		//desc: '一个专注于Galgame的资源站',
 		link: 'https://shionlib.com/',
 	  },
 	  {
@@ -128,13 +121,7 @@ export const NAV_DATA: NavData[] = [
 		desc: '希望大家都爱真红',
 		link: 'https://www.shinnku.com/',
 	  },
-	//	{
-	//	icon: 'https://favicon.im/www.galdl.com?larger=true',
- 	//	title: 'GALXP',
- 	//	desc: '只推一些XP向的拔作,BT下载',
- 	//	link: 'https://www.galdl.com/',
-	//	},
-		{
+	  {
 		icon: 'https://www.singureo.com/favicon.ico',
 		title: 'Singureo',
 		desc: '原莉斯坦ACG',
@@ -226,12 +213,10 @@ export const NAV_DATA: NavData[] = [
 		title: '批评空间',
 		desc: '看游戏排行和评分',
 		link: 'https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/',
-	  },
-	  {
-		icon: 'https://favicon.im/plumz.me?larger=true',
-		title: '批评空间',
-		desc: '这个是李先生的反代',
-		link: 'https://ero.plumz.me/',
+		domains: [
+		  { label: '原始站', url: 'https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/', type: 'primary' },
+		  { label: '李先生反代', url: 'https://ero.plumz.me/', type: 'mirror' },
+		],
 	  },
 	  {
 		icon: 'https://favicon.im/plumz.me?larger=true',
@@ -274,12 +259,10 @@ export const NAV_DATA: NavData[] = [
 		title: '2DFan',
 		desc: '新作情报,存档、补丁下载',
 		link: 'https://2dfan.com/',
-	  },
-	  {
-		icon: 'https://favicon.im/2dfan.com',
-		title: '2DFan',
-		desc: '如果打不开主域名,可以看看这个发布页',
-		link: 'https://github.com/2dfan/domains/',
+		domains: [
+		  { label: '主域名', url: 'https://2dfan.com/', type: 'primary' },
+		  { label: '发布页', url: 'https://github.com/2dfan/domains/', type: 'mirror' },
+		],
 	  },
 	  {
 		icon: 'https://favicon.im/moyu.moe',

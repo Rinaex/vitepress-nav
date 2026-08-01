@@ -16,6 +16,7 @@ cache
 .temp
 .tmp
 .turbo
+docs/.vitepress/cache
 
 # log and lock files
 *.log
