@@ -1,0 +1,1 @@
+import{_ as a,o as e,c as t}from"./chunks/framework.CD1y1ad3.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"nav/nav-manual.md","filePath":"nav/nav-manual.md","lastUpdated":1736079071000}'),n={name:"nav/nav-manual.md"};function r(o,s,c,d,l,m){return e(),t("div")}const i=a(n,[["render",r]]);export{_ as __pageData,i as default};

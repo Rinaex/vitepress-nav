@@ -1,0 +1,1 @@
+import{_ as t,o as e,c as a}from"./chunks/framework.CD1y1ad3.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"stage1/soft/run.md","filePath":"stage1/soft/run.md","lastUpdated":1775267393000}'),s={name:"stage1/soft/run.md"};function r(o,n,c,d,p,f){return e(),a("div")}const m=t(s,[["render",r]]);export{i as __pageData,m as default};
