@@ -70,6 +70,9 @@ const tagText: Record<string, string> = {
   primary: '主站',
   mirror: '镜像',
   mobile: '移动端',
+  publish: '地址发布页',
+  github: 'GitHub',
+  cloud: '网盘',
 }
 
 function formatUrl(url: string): string {
@@ -471,6 +474,18 @@ function formatUrl(url: string): string {
   &--mobile {
     color: #f59e0b;
     background: rgba(245, 158, 11, 0.12);
+  }
+  &--publish {
+    color: #8b5cf6;
+    background: rgba(139, 92, 246, 0.1);
+  }
+  &--github {
+    color: #fff;
+    background: #24292f;
+  }
+  &--cloud {
+    color: #0ea5e9;
+    background: rgba(14, 165, 233, 0.1);
   }
 }
 

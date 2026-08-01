@@ -3,8 +3,8 @@ export interface NavDomain {
   label: string
   /** 域名链接 */
   url: string
-  /** 域名类型：主站 / 镜像 / 移动端 */
-  type?: 'primary' | 'mirror' | 'mobile'
+  /** 域名类型：主站 / 镜像 / 移动端 / 地址发布页 / GitHub / 网盘 */
+  type?: 'primary' | 'mirror' | 'mobile' | 'publish' | 'github' | 'cloud'
 }
 
 export interface NavLink {
