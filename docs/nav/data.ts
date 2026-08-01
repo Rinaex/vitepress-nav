@@ -12,24 +12,31 @@ export const NAV_DATA: NavData[] = [
 	  {
 		icon: 'https://favicon.im/miaola.work',
 		title: '绯月ScarletMoon',
-		desc: '当下最好的Galgame 论坛',
-		link: 'https://kf.miaola.work/',
+		desc: '也许是最好的Galgame 社区',
 		domains: [
-		  { label: 'PC版', url: 'https://kf.miaola.work/', type: 'primary' },
-		  { label: '手机版', url: 'https://m.miaola.work/', type: 'mobile' },
+		  { label: '主站', url: 'https://bbs.kfmax.com/', type: 'primary' },
+		  { label: '镜像', url: 'https://kf.miaola.work/', type: 'mirror' },
+		  { label: '移动端镜像', url: 'https://m.miaola.work/', type: 'mirror' },
 		],
 	  },
 	  {
 		icon: 'https://favicon.im/www.kungal.com',
 		title: '鲲Galgame',
-		desc: '活跃用户很多,获取资源没有门槛',
-		link: 'https://www.kungal.com/zh-cn',
+		desc: '鲲站现在的氛围也是非常好了',
+		domains: [
+		  { label: '主站', url: 'https://www.kungal.com/', type: 'primary' },
+		  { label: '导航页', url: 'https://nav.kungal.org/', type: 'publish' },
+		  { label: 'GitHub', url: 'https://github.com/KunMoe/kun-galgame-forum', type: 'github' },
+		],
 	  },
 	  {
 		icon: 'https://favicon.im/galbase.top',
 		title: 'galbase',
 		desc: '一个开源且数据公开的综合型论坛',
-		link: 'https://galbase.top/',
+		domains: [
+		  { label: '主站', url: 'https://galbase.top/', type: 'primary' },
+		  { label: '导航页', url: 'https://home.galbase.top/', type: 'publish' },
+		],
 	  },
 	  {
 		icon: 'https://favicon.im/www.ymgal.games',
@@ -40,14 +47,16 @@ export const NAV_DATA: NavData[] = [
 	  {
 		icon: 'https://favicon.im/www.hikarinagi.com?larger=true',
 		title: 'Hikarinagi',
-		link: 'https://www.hikarinagi.com/',
+		desc: '除了社区功能还有漫画和轻小说内容,不过互动性不强',
+		link: 'https://www.hikarinagi.org/',
 	  },
+	  	/*** 内容量和用户都还是比较少  出于导航功能性考虑隐藏掉
 	  {
 		icon: 'https://favicon.im/galgamer.moe',
 		title: 'Galgamer',
 		link: 'https://galgamer.moe/',
 	  },
-
+		***/
 	],
   },
   {
@@ -55,7 +64,8 @@ export const NAV_DATA: NavData[] = [
 	items : [
 		{
 		title: 'Galgame聚合搜索',
-		desc: '聚合了很多资源站',
+		icon: 'https://www.searchgal.top/logo.svg',
+		desc: '聚合了很多资源站的Galgame搜索引擎',
 		link: 'https://searchgal.top/',
 	  },
 	  {
@@ -67,8 +77,12 @@ export const NAV_DATA: NavData[] = [
 	  {
 		icon: 'https://favicon.im/inarigal.com',
 		title: '新生版稻荷ACG',
-		desc: '海超人和大洋游侠合为一体',
-		link: 'https://inarigal.com/',
+		desc: '稻荷的界面挺干净的,下载体验也很好',
+		domains: [
+		  { label: '主站', url: 'https://inarigal.com/', type: 'primary' },
+		  { label: '备用地址1', url: 'https://inarigal.moe/', type: 'backup' },
+		  { label: '备用地址2', url: 'https://inarigal.net/', type: 'backup' },
+		],
 	  },
 	  {
 		icon: 'https://favicon.im/t-satoru.top?larger=true', 
@@ -85,7 +99,21 @@ export const NAV_DATA: NavData[] = [
 		icon: 'https://favicon.im/www.sayafx.top',
 		title: 'Galgame月谣',
 		desc: '好就是好！',
-		link: 'https://www.sayafx.top/',
+		link: 'https://www.sayafx.vip/',
+	  },
+	  {
+		icon: 'https://favicon.im/galgame.zone',
+		title: 'Gal领域',
+		desc: '建议使用多线程下载工具',
+		domains: [
+		  { label: '主站', url: 'https://galgame.zone/', type: 'primary' },
+		  { label: '导航页', url: 'https://gal-zone.com/', type: 'publish' },
+		],
+	  },
+	  {
+		icon: 'https://www.singureo.com/favicon.ico',
+		title: 'Singureo',
+		link: 'https://www.singureo.com/',
 	  },
 	  {
 		icon: 'https://galzy.eu.org/favicon.ico',
@@ -94,10 +122,10 @@ export const NAV_DATA: NavData[] = [
 		link: 'https://www.galzy.eu.org/',
 	  },
 	  {
-		icon: 'https://favicon.im/www.touchgal.io',
+		icon: 'https://favicon.im/www.touchgal.ink',
 		title: 'TouchGal',
 		desc: 'TouchGal的自建盘使用的存储是Cloudflare R2部分国内网络可能无法下载',
-		link: 'https://www.touchgal.io/',
+		link: 'https://www.touchgal.ink/',
 	  },
 	  {
 		icon: 'https://favicon.im/www.lycorisgal.com',
@@ -124,7 +152,6 @@ export const NAV_DATA: NavData[] = [
 	  {
 		icon: 'https://www.singureo.com/favicon.ico',
 		title: 'Singureo',
-		desc: '原莉斯坦ACG',
 		link: 'https://www.singureo.com/',
 	  },
 	  {
@@ -177,7 +204,10 @@ export const NAV_DATA: NavData[] = [
 		icon: 'https://favicon.im/ggb.dlgal.com',
 		title: 'GGBases',
 		desc: '生肉分流站点,提供BT和PikPak',
-		link: 'https://ggb.dlgal.com/'
+		domains: [
+		  { label: '主站', url: 'https://ggb.dlgal.com/', type: 'primary' },
+		  { label: '导航页', url: 'https://gitlab.com/ggbases/address', type: 'publish' },
+		],
 	  },
 	  {
 		icon: 'https://favicon.im/www.anime-sharing.com',
@@ -212,7 +242,6 @@ export const NAV_DATA: NavData[] = [
 		icon: 'https://favicon.im/erogamescape.dyndns.org?larger=true',
 		title: '批评空间',
 		desc: '看游戏排行和评分',
-		link: 'https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/',
 		domains: [
 		  { label: '原始站', url: 'https://erogamescape.dyndns.org/~ap2/ero/toukei_kaiseki/', type: 'primary' },
 		  { label: '李先生反代', url: 'https://ero.plumz.me/', type: 'mirror' },
@@ -258,7 +287,6 @@ export const NAV_DATA: NavData[] = [
 		icon: 'https://favicon.im/2dfan.com',
 		title: '2DFan',
 		desc: '新作情报,存档、补丁下载',
-		link: 'https://2dfan.com/',
 		domains: [
 		  { label: '主域名', url: 'https://2dfan.com/', type: 'primary' },
 		  { label: '发布页', url: 'https://github.com/2dfan/domains/', type: 'mirror' },

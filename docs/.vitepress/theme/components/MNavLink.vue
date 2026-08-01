@@ -9,7 +9,7 @@ const props = defineProps<{
   icon?: NavLink['icon']
   title?: NavLink['title']
   desc?: NavLink['desc']
-  link: NavLink['link']
+  link?: NavLink['link']
   domains?: NavDomain[]
 }>()
 
@@ -19,6 +19,16 @@ const svg = computed(() => (typeof props.icon === 'object' ? props.icon.svg : ''
 
 const isMulti = computed(() => !!props.domains && props.domains.length > 1)
 const domainCount = computed(() => props.domains?.length ?? 0)
+
+/** 多域名时自动取 primary 或首项作为回退链接 */
+const effectiveLink = computed(() => {
+  if (props.link) return props.link
+  if (props.domains?.length) {
+    const primary = props.domains.find((d) => d.type === 'primary')
+    return (primary ?? props.domains[0]).url
+  }
+  return ''
+})
 
 const showPopup = ref(false)
 
@@ -73,6 +83,7 @@ const tagText: Record<string, string> = {
   publish: '地址发布页',
   github: 'GitHub',
   cloud: '网盘',
+  backup: '备用地址',
 }
 
 function formatUrl(url: string): string {
@@ -87,7 +98,7 @@ function formatUrl(url: string): string {
     v-bind="
       isMulti
         ? { role: 'button', tabindex: 0 }
-        : { href: link, target: '_blank', rel: 'noreferrer' }
+        : { href: effectiveLink, target: '_blank', rel: 'noreferrer' }
     "
     @click="onCardClick"
     @keydown.enter="onCardClick"
@@ -486,6 +497,10 @@ function formatUrl(url: string): string {
   &--cloud {
     color: #0ea5e9;
     background: rgba(14, 165, 233, 0.1);
+  }
+  &--backup {
+    color: #6b7280;
+    background: rgba(107, 114, 128, 0.1);
   }
 }
 
