@@ -111,11 +111,6 @@ export const NAV_DATA: NavData[] = [
 		],
 	  },
 	  {
-		icon: 'https://www.singureo.com/favicon.ico',
-		title: 'Singureo',
-		link: 'https://www.singureo.com/',
-	  },
-	  {
 		icon: 'https://galzy.eu.org/favicon.ico',
 		title: '紫缘社',
 		desc: '紫缘社又改版了,现在无需密码即可下载',
@@ -124,23 +119,28 @@ export const NAV_DATA: NavData[] = [
 	  {
 		icon: 'https://favicon.im/www.touchgal.ink',
 		title: 'TouchGal',
-		desc: 'TouchGal的自建盘使用的存储是Cloudflare R2部分国内网络可能无法下载',
+		desc: '免费, 高质量的 Galgame 资源下载站',
 		link: 'https://www.touchgal.ink/',
 	  },
 	  {
 		icon: 'https://favicon.im/www.lycorisgal.com',
 		title: 'LycorisGal',
+		desc: '下载老快了',
 		link: 'https://www.lycorisgal.com/',
 	  },
 	  {
 		icon: 'https://shionlib.com/favicon.ico',
 		title: '书音的图书馆',
-		link: 'https://shionlib.com/',
+		desc: '免费、开源、不限速',
+		domains: [
+		  { label: '主站', url: 'https://shionlib.com/', type: 'primary' },
+		  { label: 'GitHub', url: 'https://github.com/Ringyuki/shionlib', type: 'github' },
+		],
 	  },
 	  {
 		icon: 'https://nysoure.com/favicon.ico',
 		title: 'Nysoure',
-		desc: '不支持大陆和日本IP的访问',
+		desc: 'Nysoure 是一个完全免费的galgame分享网站, 不接受捐赠和广告',
 		link: 'https://nysoure.com/',
 	  },
 	  {
@@ -152,12 +152,13 @@ export const NAV_DATA: NavData[] = [
 	  {
 		icon: 'https://www.singureo.com/favicon.ico',
 		title: 'Singureo',
+		desc: '我们都有相同的热爱',
 		link: 'https://www.singureo.com/',
 	  },
 	  {
 		icon: 'https://catcat.cloud/favicon.ico',
 		title: '猫猫网盘',
-		desc: '除了Galgame还有些其他内容,给猫猫⭐',
+		desc: '除了Galgame还有些其他内容',
 		link: 'https://catcat.cloud/',
 	  },
 	  {
@@ -180,8 +181,13 @@ export const NAV_DATA: NavData[] = [
 	  {
 		icon: 'https://favicon.im/lzacg.org',
 		title: '量子ACG',
-		desc: '提供MEGA盘和Cloudflare R2，两种下载方式都需要使用代理',
+		desc: '量子的内容量很大,运营时间也算久',
 		link: 'https://lzacg.org/',
+	  },
+	  {
+		icon: 'https://favicon.im/sharotto.com',
+		title: '一站式的 Galgame 信息数据库',
+		link: 'https://www.sharotto.com/',
 	  },
 	  {
 		icon: 'https://www.nekogal.com/wp-content/uploads/2023/11/favneko.png',
