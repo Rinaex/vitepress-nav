@@ -113,7 +113,7 @@ export const NAV_DATA: NavData[] = [
 	  {
 		icon: 'https://galzy.eu.org/favicon.ico',
 		title: '紫缘社',
-		desc: '紫缘社又改版了,现在无需密码即可下载',
+		desc: '下载速度慢的话可能需要借助科学的力量',
 		link: 'https://www.galzy.eu.org/',
 	  },
 	  {
@@ -186,7 +186,8 @@ export const NAV_DATA: NavData[] = [
 	  },
 	  {
 		icon: 'https://favicon.im/sharotto.com',
-		title: '一站式的 Galgame 信息数据库',
+		title: 'Sharotto',
+		desc: '一站式的 Galgame 信息数据库',
 		link: 'https://www.sharotto.com/',
 	  },
 	  {
